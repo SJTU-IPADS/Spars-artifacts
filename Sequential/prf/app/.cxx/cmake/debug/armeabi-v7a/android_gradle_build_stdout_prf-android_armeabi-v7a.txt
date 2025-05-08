@@ -1,0 +1,823 @@
+ninja: Entering directory `/home/richardwu/Desktop/Spars/prf/app/.cxx/cmake/debug/armeabi-v7a'
+[1/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/circles/Circle.cpp.o
+[2/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/paint/Paint.cpp.o
+[3/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/rrects/RRect.cpp.o
+[4/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.o
+[5/74] Building CXX object CMakeFiles/prf-android.dir/AndroidMain.cpp.o
+[6/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.o
+[7/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.o
+[8/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.o
+[9/74] Building CXX object CMakeFiles/prf-android.dir/home/richardwu/Desktop/Spars/common/vulkan_wrapper/vulkan_wrapper.cpp.o
+[10/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.o
+[11/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.o
+[12/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.o
+[13/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.o
+[14/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.o
+[15/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.o
+[16/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.o
+[17/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.o
+[18/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.o
+[19/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.o
+[20/74] Building C object freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.o
+[21/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o
+[22/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.o
+[23/74] Building C object freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.o
+[24/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.o
+[25/74] Building C object freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.o
+[26/74] Building C object freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.o
+[27/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/rects/Rect.cpp.o
+[28/74] Building C object freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.o
+[29/74] Building C object freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.o
+[30/74] Building C object freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.o
+[31/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/text/Text.cpp.o
+[32/74] Building C object freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.o
+[33/74] Building C object freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.o
+[34/74] Building C object freetype/CMakeFiles/freetype.dir/src/cff/cff.c.o
+[35/74] Building C object freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.o
+[36/74] Building C object freetype/CMakeFiles/freetype.dir/src/svg/svg.c.o
+[37/74] Building C object freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.o
+[38/74] Building C object freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.o
+[39/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/image/Image.cpp.o
+[40/74] Building C object freetype/CMakeFiles/freetype.dir/src/raster/raster.c.o
+[41/74] Building C object freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.o
+[42/74] Building C object freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o
+[43/74] Building C object freetype/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.o
+[44/74] Building CXX object CMakeFiles/prf-android.dir/home/richardwu/Desktop/Spars/common/src/GameActivitySources.cpp.o
+[45/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftdebug.c.o
+[46/74] Building C object freetype/CMakeFiles/freetype.dir/src/type42/type42.c.o
+[47/74] Building C object freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.o
+[48/74] Building CXX object CMakeFiles/prf-android.dir/renderTree/AnimationsList.cpp.o
+[49/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/pipeline_helper.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:31:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateShaderModule(device, &shaderModuleCreateInfo, nullptr, &shader));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:179:1: note: expanded from here
+31
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:101:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreatePipelineLayout(device, &pipelineLayoutCreateInfo,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:184:1: note: expanded from here
+102
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:219:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 0,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:218:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:225:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 1,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:224:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:262:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateGraphicsPipelines(
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:189:1: note: expanded from here
+264
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:296:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreatePipelineLayout(device, &pipelineLayoutCreateInfo,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:194:1: note: expanded from here
+297
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:414:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 0,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:413:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:420:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 1,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:419:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:426:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 2,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:425:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:463:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateGraphicsPipelines(
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:199:1: note: expanded from here
+465
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:489:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreatePipelineLayout(device, &pipelineLayoutCreateInfo,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:204:1: note: expanded from here
+490
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:606:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 0,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:605:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:612:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 1,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:611:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:649:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateGraphicsPipelines(
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:209:1: note: expanded from here
+651
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:678:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreatePipelineLayout(device, &pipelineLayoutCreateInfo,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:214:1: note: expanded from here
+679
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:794:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 0,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:793:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:800:74: warning: ISO C++ requires field designators to be specified in declaration order; field 'binding' will be initialized after field 'location' [-Wreorder-init-list]
+                                                                         .location = 1,
+                                                                         ^~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:799:85: note: previous initialization for field 'binding' is here
+                                                                         .binding = 0,
+                                                                                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/pipeline_helper.cpp:837:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateGraphicsPipelines(
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:219:1: note: expanded from here
+839
+^
+18 warnings generated.
+[50/74] Building CXX object CMakeFiles/prf-android.dir/renderTree/Animation.cpp.o
+[51/74] Building C object freetype/CMakeFiles/freetype.dir/src/type1/type1.c.o
+[52/74] Building CXX object CMakeFiles/prf-android.dir/renderWorker/RenderWorkerThread.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/RenderWorkerThread.cpp:67:13: warning: delete called on 'DrawTask' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor]
+            delete drawTask;
+            ^
+1 warning generated.
+[53/74] Building C object freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.o
+[54/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/GlyphManager.cpp.o
+[55/74] Building CXX object CMakeFiles/prf-android.dir/utils/DrawResourceCollectorQueue.cpp.o
+[56/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/BufferManager.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/BufferManager.cpp:127:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateBuffer(device_, &bufferInfo, nullptr, &buffer));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:462:1: note: expanded from here
+127
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/BufferManager.cpp:138:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkAllocateMemory(device_, &allocInfo, nullptr, &bufferMemory));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:467:1: note: expanded from here
+138
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/BufferManager.cpp:158:34: warning: format specifies type 'int' but the argument has type 'unsigned long long' [-Wformat]
+        LOGI("\t\t[%d] size %d", iter->first, iter->second.size());
+                   ~~            ^~~~~~~~~~~
+                   %llu
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/../vulkan/../log.h:13:54: note: expanded from macro 'LOGI'
+  ((void)__android_log_print(ANDROID_LOG_INFO, KTAG, __VA_ARGS__))
+                                                     ^~~~~~~~~~~
+3 warnings generated.
+[57/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/DrawResource.cpp.o
+[58/74] Building CXX object CMakeFiles/prf-android.dir/utils/DrawTaskPool.cpp.o
+[59/74] Building CXX object CMakeFiles/prf-android.dir/renderTree/HorLnrMovAnimation.cpp.o
+[60/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/PipelineManager.cpp.o
+[61/74] Building CXX object CMakeFiles/prf-android.dir/drawTaskContainer/DrawTaskList.cpp.o
+[62/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/DrawTask.cpp.o
+[63/74] Building CXX object CMakeFiles/prf-android.dir/renderTree/DrawCmd.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:57:12: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+    return std::move(drawTask);
+           ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:57:12: note: remove std::move call here
+    return std::move(drawTask);
+           ^~~~~~~~~~        ~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:89:12: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+    return std::move(drawTask);
+           ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:89:12: note: remove std::move call here
+    return std::move(drawTask);
+           ^~~~~~~~~~        ~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:122:12: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+    return std::move(drawTask);
+           ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:122:12: note: remove std::move call here
+    return std::move(drawTask);
+           ^~~~~~~~~~        ~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:156:12: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+    return std::move(drawTask);
+           ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:156:12: note: remove std::move call here
+    return std::move(drawTask);
+           ^~~~~~~~~~        ~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:192:12: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+    return std::move(drawTask);
+           ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:192:12: note: remove std::move call here
+    return std::move(drawTask);
+           ^~~~~~~~~~        ~
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/../engine2d/image/../../renderTree/DrawCmd.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string:504:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string_view:175:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__string:57:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2427:5: warning: delete called on non-final 'RectsDrawTask' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    delete __ptr;
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2682:7: note: in instantiation of member function 'std::default_delete<RectsDrawTask>::operator()' requested here
+      __ptr_.second()(__tmp);
+      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2636:19: note: in instantiation of member function 'std::unique_ptr<RectsDrawTask>::reset' requested here
+  ~unique_ptr() { reset(); }
+                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3993:21: note: in instantiation of member function 'std::unique_ptr<RectsDrawTask>::~unique_ptr' requested here
+    unique_ptr<_Yp> __hold(__p);
+                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:56:31: note: in instantiation of function template specialization 'std::shared_ptr<DrawTask>::shared_ptr<RectsDrawTask>' requested here
+    std::shared_ptr<DrawTask> drawTask(new RectsDrawTask(taskId, boundingBox, rects, paints));
+                              ^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/../engine2d/image/../../renderTree/DrawCmd.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string:504:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string_view:175:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__string:57:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2427:5: warning: delete called on non-final 'CirclesDrawTask' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    delete __ptr;
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2682:7: note: in instantiation of member function 'std::default_delete<CirclesDrawTask>::operator()' requested here
+      __ptr_.second()(__tmp);
+      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2636:19: note: in instantiation of member function 'std::unique_ptr<CirclesDrawTask>::reset' requested here
+  ~unique_ptr() { reset(); }
+                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3993:21: note: in instantiation of member function 'std::unique_ptr<CirclesDrawTask>::~unique_ptr' requested here
+    unique_ptr<_Yp> __hold(__p);
+                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:88:31: note: in instantiation of function template specialization 'std::shared_ptr<DrawTask>::shared_ptr<CirclesDrawTask>' requested here
+    std::shared_ptr<DrawTask> drawTask(new CirclesDrawTask(taskId, boundingBox, circles, paints));
+                              ^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/../engine2d/image/../../renderTree/DrawCmd.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string:504:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string_view:175:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__string:57:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2427:5: warning: delete called on non-final 'ImageDrawTask' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    delete __ptr;
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2682:7: note: in instantiation of member function 'std::default_delete<ImageDrawTask>::operator()' requested here
+      __ptr_.second()(__tmp);
+      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2636:19: note: in instantiation of member function 'std::unique_ptr<ImageDrawTask>::reset' requested here
+  ~unique_ptr() { reset(); }
+                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3993:21: note: in instantiation of member function 'std::unique_ptr<ImageDrawTask>::~unique_ptr' requested here
+    unique_ptr<_Yp> __hold(__p);
+                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:121:31: note: in instantiation of function template specialization 'std::shared_ptr<DrawTask>::shared_ptr<ImageDrawTask>' requested here
+    std::shared_ptr<DrawTask> drawTask(new ImageDrawTask(taskId, boundingBox, image, paint));
+                              ^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/../engine2d/image/../../renderTree/DrawCmd.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string:504:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string_view:175:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__string:57:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2427:5: warning: delete called on non-final 'TextsDrawTask' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    delete __ptr;
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2682:7: note: in instantiation of member function 'std::default_delete<TextsDrawTask>::operator()' requested here
+      __ptr_.second()(__tmp);
+      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2636:19: note: in instantiation of member function 'std::unique_ptr<TextsDrawTask>::reset' requested here
+  ~unique_ptr() { reset(); }
+                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3993:21: note: in instantiation of member function 'std::unique_ptr<TextsDrawTask>::~unique_ptr' requested here
+    unique_ptr<_Yp> __hold(__p);
+                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:155:31: note: in instantiation of function template specialization 'std::shared_ptr<DrawTask>::shared_ptr<TextsDrawTask>' requested here
+    std::shared_ptr<DrawTask> drawTask(new TextsDrawTask(taskId, boundingBox, texts, paints));
+                              ^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/../engine2d/image/../../renderTree/DrawCmd.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string:504:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/string_view:175:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__string:57:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2427:5: warning: delete called on non-final 'RRectsDrawTask' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    delete __ptr;
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2682:7: note: in instantiation of member function 'std::default_delete<RRectsDrawTask>::operator()' requested here
+      __ptr_.second()(__tmp);
+      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2636:19: note: in instantiation of member function 'std::unique_ptr<RRectsDrawTask>::reset' requested here
+  ~unique_ptr() { reset(); }
+                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3993:21: note: in instantiation of member function 'std::unique_ptr<RRectsDrawTask>::~unique_ptr' requested here
+    unique_ptr<_Yp> __hold(__p);
+                    ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderTree/DrawCmd.cpp:191:31: note: in instantiation of function template specialization 'std::shared_ptr<DrawTask>::shared_ptr<RRectsDrawTask>' requested here
+    std::shared_ptr<DrawTask> drawTask(new RRectsDrawTask(taskId, boundingBox, rrects, paints));
+                              ^
+10 warnings generated.
+[64/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/SamplerDescriptorManager.cpp.o
+[65/74] Building C object freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o
+[66/74] Building C object freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.o
+[67/74] Building CXX object CMakeFiles/prf-android.dir/renderTree/RenderNode.cpp.o
+[68/74] Linking C static library freetype/libfreetyped.a
+[69/74] Building CXX object CMakeFiles/prf-android.dir/renderWorker/RenderWorkerPool.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/RenderWorkerPool.cpp:57:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkBeginCommandBuffer(renderInfo.cmdBuffer_[frameIndex],
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:103:1: note: expanded from here
+58
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/RenderWorkerPool.cpp:124:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkEndCommandBuffer(renderInfo.cmdBuffer_[frameIndex]));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:108:1: note: expanded from here
+124
+^
+2 warnings generated.
+[70/74] Building CXX object CMakeFiles/prf-android.dir/treeParser/TreeParser.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:184:9: warning: unused variable 'start' [-Wunused-variable]
+    int start = line.find("[");
+        ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:185:9: warning: unused variable 'end' [-Wunused-variable]
+    int end = line.find("]");
+        ^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:1:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.h:4:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/../renderTree/../engine2d/image/../../renderTree/RenderNode.h:4:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector:274:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__bit_reference:15:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'ImageDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<ImageDrawCmd, std::allocator<ImageDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<ImageDrawCmd, std::allocator<ImageDrawCmd>>::__shared_ptr_emplace<Paint &, Image &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:116:41: note: in instantiation of function template specialization 'std::make_shared<ImageDrawCmd, Paint &, Image &>' requested here
+                        auto cmd = std::make_shared<ImageDrawCmd>(paint, image);
+                                        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'TextDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<TextDrawCmd, std::allocator<TextDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<TextDrawCmd, std::allocator<TextDrawCmd>>::__shared_ptr_emplace<Paint &, Text &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:124:41: note: in instantiation of function template specialization 'std::make_shared<TextDrawCmd, Paint &, Text &>' requested here
+                        auto cmd = std::make_shared<TextDrawCmd>(paint, text);
+                                        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'RRectDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<RRectDrawCmd, std::allocator<RRectDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<RRectDrawCmd, std::allocator<RRectDrawCmd>>::__shared_ptr_emplace<Paint &, RRect &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:134:41: note: in instantiation of function template specialization 'std::make_shared<RRectDrawCmd, Paint &, RRect &>' requested here
+                        auto cmd = std::make_shared<RRectDrawCmd>(paint, rrect);
+                                        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'RectDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<RectDrawCmd, std::allocator<RectDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<RectDrawCmd, std::allocator<RectDrawCmd>>::__shared_ptr_emplace<Paint &, Rect &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:144:41: note: in instantiation of function template specialization 'std::make_shared<RectDrawCmd, Paint &, Rect &>' requested here
+                        auto cmd = std::make_shared<RectDrawCmd>(paint, rect);
+                                        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'CircleDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<CircleDrawCmd, std::allocator<CircleDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<CircleDrawCmd, std::allocator<CircleDrawCmd>>::__shared_ptr_emplace<Paint &, Circle &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:153:41: note: in instantiation of function template specialization 'std::make_shared<CircleDrawCmd, Paint &, Circle &>' requested here
+                        auto cmd = std::make_shared<CircleDrawCmd>(paint, circle);
+                                        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'HorLnrMovAnimation' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<HorLnrMovAnimation, std::allocator<HorLnrMovAnimation>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<HorLnrMovAnimation, std::allocator<HorLnrMovAnimation>>::__shared_ptr_emplace<RenderNode *&, int, int, int>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/treeParser/TreeParser.cpp:162:46: note: in instantiation of function template specialization 'std::make_shared<HorLnrMovAnimation, RenderNode *&, int, int, int>' requested here
+                            auto anim = std::make_shared<HorLnrMovAnimation>(curr, curr->getAbsX(), -100, curr->getAbsX() - 700);
+                                             ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+8 warnings generated.
+[71/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/Engine2D.cpp.o
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:171:68: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                                                                   "shaders/image.vert.spv", "shaders/image.frag.spv", descriptorSetLayout);
+                                                                   ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:171:94: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                                                                   "shaders/image.vert.spv", "shaders/image.frag.spv", descriptorSetLayout);
+                                                                                             ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:345:43: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                                          "shaders/text.vert.spv", "shaders/text.frag.spv", descriptorSetLayout);
+                                          ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:345:68: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                                          "shaders/text.vert.spv", "shaders/text.frag.spv", descriptorSetLayout);
+                                                                   ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:370:54: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float rightSample = glyphInfo.glyphRight_[c];
+                                                     ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:371:50: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float topSample = glyphInfo.glyphTop_[c];
+                                                 ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:372:56: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float bottomSample = glyphInfo.glyphBottom_[c];
+                                                       ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:375:85: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float left = coordinateXToVulkan(horiAccPx + glyphInfo.glyphLeftOffsets_[c]);
+                                                                                    ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:376:109: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float top = coordinateYToVulkan(texts[i].y_ + texts[i].pixelHeight_ - glyphInfo.glyphTopOffsets_[c]); // TODO: 这里暂时加上texts[i].pixelHeight_
+                                                                                                            ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:377:86: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float right = coordinateXToVulkan(horiAccPx + glyphInfo.glyphLeftOffsets_[c] + rightSample * glyphInfo.maxGlyphWidth_);
+                                                                                     ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:378:112: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            float bottom = coordinateYToVulkan(texts[i].y_ + texts[i].pixelHeight_ - glyphInfo.glyphTopOffsets_[c] + glyphInfo.maxGlyphHeight_ * (bottomSample - topSample) * ASCII_CHAR_COUNT);
+                                                                                                               ^~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/engine2d/Engine2D.cpp:379:54: warning: array subscript is of type 'char' [-Wchar-subscripts]
+            horiAccPx += (glyphInfo.glyphLeftOffsets_[c] + rightSample * glyphInfo.maxGlyphWidth_); // * 1.2; // 1.2 为字间距
+                                                     ^~
+12 warnings generated.
+[72/74] Building CXX object CMakeFiles/prf-android.dir/engine2d/ImageManager.cpp.o
+[73/74] Building CXX object CMakeFiles/prf-android.dir/VulkanMain.cpp.o
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:21:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/instance.h:50:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateInstance(&instanceCreateInfo, nullptr, &instance));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:218:1: note: expanded from here
+50
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:22:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/surface.h:20:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateAndroidSurfaceKHR(instance, &createInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:223:1: note: expanded from here
+21
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:23:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/physical_device.h:17:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkEnumeratePhysicalDevices(instance, &gpuCount, nullptr));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:228:1: note: expanded from here
+17
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:23:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/physical_device.h:19:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkEnumeratePhysicalDevices(instance, &gpuCount, tmpGpus));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:233:1: note: expanded from here
+19
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:25:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/device.h:49:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateDevice(physicalDevice, &deviceCreateInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:244:1: note: expanded from here
+50
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:27:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/swapchain.h:50:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkGetPhysicalDeviceSurfaceCapabilitiesKHR(physicalDevice,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:252:1: note: expanded from here
+51
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:27:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/swapchain.h:76:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateSwapchainKHR(device, &swapchainCreateInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:260:1: note: expanded from here
+77
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:27:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/swapchain.h:80:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkGetSwapchainImagesKHR(device, swapchain->swapchain_,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:265:1: note: expanded from here
+81
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:28:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/render_pass.h:55:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateRenderPass(device, &renderPassCreateInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:270:1: note: expanded from here
+56
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:29:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/frame_buffers.h:18:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkGetSwapchainImagesKHR(device, swapchain->swapchain_,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:275:1: note: expanded from here
+20
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:29:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/frame_buffers.h:50:9: warning: data argument not used by format string [-Wformat-extra-args]
+        CALL_VK(vkCreateImageView(device, &viewCreateInfo, nullptr,
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:280:1: note: expanded from here
+51
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:29:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/frame_buffers.h:70:9: warning: data argument not used by format string [-Wformat-extra-args]
+        CALL_VK(vkCreateFramebuffer(device, &fbCreateInfo, nullptr,
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:3:1: note: expanded from here
+71
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:30:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/command_pool.h:20:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateCommandPool(device, &cmdPoolCreateInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:8:1: note: expanded from here
+21
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:31:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/command_buffers.h:20:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkAllocateCommandBuffers(device, &cmdBufferCreateInfo, render->cmdBuffer_.data()));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:13:1: note: expanded from here
+20
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:32:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/sync_objects.h:17:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateSemaphore(device, &semaphoreCreateInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:18:1: note: expanded from here
+18
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:32:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/sync_objects.h:27:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreateFence(device, &fenceCreateInfo, nullptr, &render->renderFinishedFence_));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:23:1: note: expanded from here
+27
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:33:
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/pipeline_cache.h:21:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkCreatePipelineCache(device, &pipelineCacheInfo, nullptr,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:28:1: note: expanded from here
+22
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:238:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkAcquireNextImageKHR(deviceInfo.device_, swapchainInfo.swapchain_,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:11:1: note: expanded from here
+240
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:241:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkResetFences(deviceInfo.device_, 1, &renderInfo.renderFinishedFence_));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:16:1: note: expanded from here
+241
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:284:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkQueueSubmit(deviceInfo.queue_, 1, &submit_info, renderInfo.renderFinishedFence_));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:21:1: note: expanded from here
+284
+^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:288:5: warning: data argument not used by format string [-Wformat-extra-args]
+    CALL_VK(vkWaitForFences(deviceInfo.device_, 1, &renderInfo.renderFinishedFence_, VK_TRUE, 1000000000));
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:19:25: note: expanded from macro 'CALL_VK'
+                        __LINE__);                                    \
+                        ^
+<scratch space>:26:1: note: expanded from here
+288
+^
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:20:
+In file included from /home/richardwu/Desktop/Spars/prf/app/src/main/cpp/renderWorker/../vulkan/utils.h:12:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector:274:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__bit_reference:15:
+In file included from /home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:643:
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'RRectDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<RRectDrawCmd, std::allocator<RRectDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<RRectDrawCmd, std::allocator<RRectDrawCmd>>::__shared_ptr_emplace<Paint &, RRect &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:87:34: note: in instantiation of function template specialization 'std::make_shared<RRectDrawCmd, Paint &, RRect &>' requested here
+            auto rrectCmd = std::make_shared<RRectDrawCmd>(paint, rrect);
+                                 ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'TextDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<TextDrawCmd, std::allocator<TextDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<TextDrawCmd, std::allocator<TextDrawCmd>>::__shared_ptr_emplace<Paint &, Text &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:93:33: note: in instantiation of function template specialization 'std::make_shared<TextDrawCmd, Paint &, Text &>' requested here
+            auto textCmd = std::make_shared<TextDrawCmd>(paint, text);
+                                ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'ImageDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<ImageDrawCmd, std::allocator<ImageDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<ImageDrawCmd, std::allocator<ImageDrawCmd>>::__shared_ptr_emplace<Paint &, Image &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:98:34: note: in instantiation of function template specialization 'std::make_shared<ImageDrawCmd, Paint &, Image &>' requested here
+            auto imageCmd = std::make_shared<ImageDrawCmd>(paint, image);
+                                 ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'RectDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<RectDrawCmd, std::allocator<RectDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<RectDrawCmd, std::allocator<RectDrawCmd>>::__shared_ptr_emplace<Paint &, Rect &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:104:33: note: in instantiation of function template specialization 'std::make_shared<RectDrawCmd, Paint &, Rect &>' requested here
+            auto rectCmd = std::make_shared<RectDrawCmd>(paint, rect);
+                                ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:5: warning: destructor called on non-final 'CircleDrawCmd' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+    __data_.second().~_Tp();
+    ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3634:9: note: in instantiation of member function 'std::__shared_ptr_emplace<CircleDrawCmd, std::allocator<CircleDrawCmd>>::__on_zero_shared' requested here
+        __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+        ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:4441:26: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<CircleDrawCmd, std::allocator<CircleDrawCmd>>::__shared_ptr_emplace<Paint &, Circle &>' requested here
+    ::new(__hold2.get()) _CntrlBlk(__a2, _VSTD::forward<_Args>(__args)...);
+                         ^
+/home/richardwu/Desktop/Spars/prf/app/src/main/cpp/VulkanMain.cpp:110:35: note: in instantiation of function template specialization 'std::make_shared<CircleDrawCmd, Paint &, Circle &>' requested here
+            auto circleCmd = std::make_shared<CircleDrawCmd>(paint, circle);
+                                  ^
+/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:3668:23: note: qualify call to silence this warning
+    __data_.second().~_Tp();
+                      ^
+26 warnings generated.
+[74/74] Linking CXX shared library /home/richardwu/Desktop/Spars/prf/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libprf-android.so

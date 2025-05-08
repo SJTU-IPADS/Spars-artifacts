@@ -1,0 +1,1 @@
+/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/build/intermediates/cmake/debug/obj/x86

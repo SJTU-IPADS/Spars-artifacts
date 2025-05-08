@@ -1,0 +1,146 @@
+-------------------------------[ability]-------------------------------
+
+
+----------------------------------RenderService---------------------------------
+
+-- RenderServiceTreeDump:
+Animating Node: [];
+| RS_NODE[0], Bounds[-inf -inf -inf -inf]
+  | DISPLAY_NODE[1], Bounds[0.0 0.0 2224.0 2496.0]
+    | SURFACE_NODE[4], Name [StatusBar], Bounds[0.0 0.0 2224.0 80.0], Rect, Paint: [0xfff2f2f2]
+      | CANVAS_NODE[5]，Bounds[8.0 8.0 100.0 64.0], Text: ["19:18", "DroidSans.ttf"52], Paint: [0xff000000]
+      | CANVAS_NODE[6], Bounds[118.0 8.0 64.0 64.0], Image: "status001.png"
+      | CANVAS_NODE[7], Bounds[190.0 8.0 64.0 64.0], Image: "status002.png"
+      | CANVAS_NODE[8], Bounds[262.0 8.0 64.0 64.0], Image: "status003.png"
+      | CANVAS_NODE[9], Name [Battery]，Bounds[2116.0 0.0 100.0 80.0]
+        | CANVAS_NODE[10], Bounds[0.0 0.0 100.0 80.0], Image: "status006.png"
+        | CANVAS_NODE[11]，Bounds[26.0 16.0 100.0 64.0], Text: ["80", "DroidSans.ttf"38], Paint: [0xff000000]
+      | CANVAS_NODE[12], Name [Signal]，Bounds[2044.0 8.0 64.0 64.0]
+        | CANVAS_NODE[13], Bounds[8.0 32.0 12.0 16.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[14], Bounds[24.0 20.0 12.0 28.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[15], Bounds[40.0 8.0 12.0 40.0], Rect, Paint: [0xff000000]
+      | CANVAS_NODE[16], Bounds[1972.0 8.0 64.0 64.0], Image: "status004.png"
+      | CANVAS_NODE[17], Bounds[1900.0 8.0 64.0 64.0], Image: "status008.png"
+    | SURFACE_NODE[18], Name [MainPage], Bounds[0.0 80.0 2224.0 2416.0]
+      | CANVAS_NODE[19], Bounds[0.0 0.0 2224.0 90.0], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[20 20.0 70.0 70.0], Image: "astronaut.png"
+        | CANVAS_NODE[191], Bounds[582 0.0 800.0 100.0]
+          | CANVAS_NODE[192], Bounds[0.0 0.0 1300 70.0], CornerRadius[35 35 35 35], Paint: [0xffcccccc]
+          | CANVAS_NODE[192], Bounds[320.0 10.0 1400 70.0], Text: ["The Shawshank Redemption (1994)", "DroidSans.ttf"45], Paint: [0xff222222]
+        | CANVAS_NODE[191], Bounds[2144 14.0 60.0 60.0], Image: "magnifier.png"
+      | CANVAS_NODE[20], Bounds[0.0 90.0 2224.0 60.0], CornerRadius[5 5 5 5], Paint: [0xfffafafa]
+        | CANVAS_NODE[193], Bounds[98.0 5.0 266.67 60.0], Text: ["Hot", "DroidSans.ttf"40], Paint: [0xffdd11dd]
+        | CANVAS_NODE[193], Bounds[308.0 5.0 266.67 60.0], Text: ["Horror", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[558.0 5.0 266.67 60.0], Text: ["Action", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[808.0 5.0 266.67 60.0], Text: ["Drama", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1058.0 5.0 266.67 60.0], Text: ["Romance", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1308.0 5.0 266.67 60.0], Text: ["Crime", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1558.0 5.0 266.67 60.0], Text: ["Mystery", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1808.0 5.0 266.67 60.0], Text: ["Fantasy", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[2058.0 5.0 266.67 60.0], Text: ["Comedy", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+      | CANVAS_NODE[1000], Name [Content], Bounds[0.0 150.0 2224.0 2100.0]
+        | CANVAS_NODE[193], Bounds[0.0 0.0 741.33 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 741.33 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m1.jpg"
+                | CANVAS_NODE[195], Bounds[610.0 480.0 100 100], Image: "vip.png"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["Titanic (1997)", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["James Cameron", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1534", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 800.0 741.33 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m2.png"
+                | CANVAS_NODE[195], Bounds[610.0 480.0 100 100], Image: "vip.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["The Shawshank Redemption", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["Frank Darabont", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["12008", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1600.0 741.33 500.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 500.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 500.0], Image: "m0.jpg"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+        | CANVAS_NODE[193], Bounds[741.33 0.0 741.33 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 741.33 200.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 190.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[30.0 15.0 721.33 70.0], Text: ["Gone with the Wind", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 45.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 110.0 50 50.0], Text: ["Victor Fleming", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 120.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7853", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 200.0 741.33 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m3.jpg"
+                | CANVAS_NODE[195], Bounds[610.0 480.0 100 100], Image: "vip.png"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["Ready Player One", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["Steven Spielberg", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7937", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1000.0 741.33 800.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m4.jpg"
+                | CANVAS_NODE[195], Bounds[610.0 480.0 100 100], Image: "vip.png"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["2012", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["Roland Emmerich", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["975", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1800.0 741.33 300.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 300.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 300.0], Image: "photo9.jpg"
+        | CANVAS_NODE[193], Bounds[1482.66 0.0 741.33 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 741.33 500.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 490.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 290.0], Image: "m5.jpg"
+              | CANVAS_NODE[195], Bounds[30.0 315.0 721.33 70.0], Text: ["White House Down", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 350.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 410.0 50 50.0], Text: ["Roland Emmerich", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 420.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1095", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 500.0 741.33 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m6.jpg"
+                | CANVAS_NODE[195], Bounds[610.0 480.0 100 100], Image: "vip.png"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["Harry Potter", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["J. K. Rowling", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["987", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1300.0 741.33 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 721.33 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 721.33 590.0], Image: "m7.jpg"
+                | CANVAS_NODE[195], Bounds[570.0 20.0 140 70], CornerRadius[20 20 20 20], Paint: [0xaaeeee00]
+                  | CANVAS_NODE[195], Bounds[15 0.0 5.0 763 70.0], Text: ["VIVID", "DroidSans.ttf"50], Paint: [0xffffffff]
+              | CANVAS_NODE[195], Bounds[30.0 615.0 721.33 70.0], Text: ["Disney Movies", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[545.0 650.0 763 70.0], Text: ["9.9/10", "DroidSans.ttf"60], Paint: [0xffdd11dd]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Text: ["Walt Disney", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["2413", "DroidSans.ttf"40], Paint: [0xff777777]
+      | CANVAS_NODE[21], Bounds[0.0 2250.0 2224.0 166.0], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[250 30.0 300.0 100.0], Text: ["Home", "DroidSans.ttf"50], Paint: [0xffdd11dd]
+        | CANVAS_NODE[191], Bounds[650 30.0 300.0 100.0], Text: ["Free", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1450 30.0 300.0 100.0], Text: ["Discovery", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1850 30.0 300.0 100.0], Text: ["Profile", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1057 20.0 110.0 110.0], Image: "wizard.png"
+      | CANVAS_NODE[125], Bounds[0.0 2366.0 2224.0 50.0]
+        | CANVAS_NODE[116], Bounds[750.0 20.0 724.0 20.0], CornerRadius[10 10 10 10], Paint: [0x99ffffff]

@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "prefabPath": "/home/richardwu/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar",
+  "packages": [
+    "/home/richardwu/.gradle/caches/transforms-3/a94f3c1cbd7846ac0ca47ef2b4af96bd/transformed/games-activity-1.1.0/prefab"
+  ]
+}

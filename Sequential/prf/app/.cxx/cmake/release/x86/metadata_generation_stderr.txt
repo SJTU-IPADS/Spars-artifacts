@@ -1,0 +1,61 @@
+CMake Warning at /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  /home/richardwu/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)
+  CMakeLists.txt:18 (project)
+
+
+CMake Warning at /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at freetype/builds/cmake/FindHarfBuzz.cmake:99 (message):
+  Required version (2.0.0) is higher than found version ()
+Call Stack (most recent call first):
+  freetype/CMakeLists.txt:258 (find_package)
+
+
+CMake Warning at /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+
+CMake Warning at /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  /home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+

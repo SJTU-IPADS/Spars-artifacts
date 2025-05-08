@@ -1,0 +1,238 @@
+-------------------------------[ability]-------------------------------
+
+
+----------------------------------RenderService---------------------------------
+
+-- RenderServiceTreeDump:
+Animating Node: [];
+| RS_NODE[0], Bounds[-inf -inf -inf -inf]
+  | DISPLAY_NODE[1], Bounds[0.0 0.0 3184.0 2232.0]
+    | SURFACE_NODE[4], Name [StatusBar], Bounds[0.0 0.0 3184.0 80.0], Rect, Paint: [0xfff2f2f2]
+      | CANVAS_NODE[5]，Bounds[8.0 8.0 100.0 64.0], Text: ["19:18", "DroidSans.ttf"52], Paint: [0xff000000]
+      | CANVAS_NODE[6], Bounds[118.0 8.0 64.0 64.0], Image: "status001.png"
+      | CANVAS_NODE[7], Bounds[190.0 8.0 64.0 64.0], Image: "status002.png"
+      | CANVAS_NODE[8], Bounds[262.0 8.0 64.0 64.0], Image: "status003.png"
+      | CANVAS_NODE[9], Name [Battery]，Bounds[3076.0 0.0 100.0 80.0]
+        | CANVAS_NODE[10], Bounds[0.0 0.0 100.0 80.0], Image: "status006.png"
+        | CANVAS_NODE[11]，Bounds[26.0 16.0 100.0 64.0], Text: ["80", "DroidSans.ttf"38], Paint: [0xff000000]
+      | CANVAS_NODE[12], Name [Signal]，Bounds[3002.0 8.0 64.0 64.0]
+        | CANVAS_NODE[13], Bounds[8.0 32.0 12.0 16.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[14], Bounds[24.0 20.0 12.0 28.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[15], Bounds[40.0 8.0 12.0 40.0], Rect, Paint: [0xff000000]
+      | CANVAS_NODE[16], Bounds[2930.0 8.0 64.0 64.0], Image: "status004.png"
+      | CANVAS_NODE[17], Bounds[2858.0 8.0 64.0 64.0], Image: "status008.png"
+    | SURFACE_NODE[18], Name [MainPage], Bounds[0.0 80.0 3184 2152]
+      | CANVAS_NODE[19], Bounds[0.0 0.0 3184 90.0], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[1182 0.0 800.0 100.0]
+          | CANVAS_NODE[192], Bounds[0.0 0.0 266.67 100.0]
+            | CANVAS_NODE[193], Bounds[58.0 0.0 266.67 90.0], Text: ["For You", "DroidSans.ttf"45], Paint: [0xffaaaaaa]
+          | CANVAS_NODE[194], Bounds[266.67 0.0 266.67 100.0]
+            | CANVAS_NODE[195], Bounds[65.0 0.0 266.67 90.0], Text: ["Today", "DroidSans.ttf"45], Paint: [0xff000000]
+            | CANVAS_NODE[196], Bounds[30.0 65.0 206.67 10.0], CornerRadius[5 5 5 5], Paint: [0xffff3333]
+          | CANVAS_NODE[197], Bounds[533.33 0.0 266.67 100.0]
+            | CANVAS_NODE[198], Bounds[0.0 0.0 266.67 100.0], Text: ["Nearby", "DroidSans.ttf"45], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[191], Bounds[3044 14.0 60.0 60.0], Image: "magnifier.png"
+      | CANVAS_NODE[20], Bounds[0.0 90.0 3184 60.0], CornerRadius[5 5 5 5], Paint: [0xfffafafa]
+        | CANVAS_NODE[193], Bounds[98.0 5.0 266.67 60.0], Text: ["Festival", "DroidSans.ttf"40], Paint: [0xff000000]
+        | CANVAS_NODE[193], Bounds[308.0 5.0 266.67 60.0], Text: ["Garden", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[558.0 5.0 266.67 60.0], Text: ["Beauty", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[808.0 5.0 266.67 60.0], Text: ["Care", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1058.0 5.0 266.67 60.0], Text: ["Clothing", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1308.0 5.0 266.67 60.0], Text: ["Jewelry", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1558.0 5.0 266.67 60.0], Text: ["Accessories", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1808.0 5.0 266.67 60.0], Text: ["Electronics", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[2058.0 5.0 266.67 60.0], Text: ["Fruits", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[2308.0 5.0 266.67 60.0], Text: ["Children", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[2558.0 5.0 266.67 60.0], Text: ["Bedding", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[2808.0 5.0 266.67 60.0], Text: ["Computer", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+      | CANVAS_NODE[1000], Name [Content], Bounds[0.0 150.0 3184 2100.0]
+        | CANVAS_NODE[193], Bounds[0.0 0.0 796 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f8.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["New Year Chocolate", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$111.00", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "tea.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Star Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1534", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 800.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f2.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["Shampoo Set", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$19.50", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "icon8.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Aurora Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["12008", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1600.0 796 300.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 300.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 300.0], Image: "f3.png"
+        | CANVAS_NODE[193], Bounds[796 0.0 796 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 796 200.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 190.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[30.0 15.0 763 70.0], Text: ["Room Decoration", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 15.0 590 70.0], Text: ["$17.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 110.0 50 50.0], Image: "photo48.jpg"
+              | CANVAS_NODE[195], Bounds[110.0 110.0 50 50.0], Text: ["Moon Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 120.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7853", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 200.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f1.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["Kitchen Ware", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$17.50", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "taxi.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Sun Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7937", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1000.0 796 800.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f4.jpeg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["That is awesome", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "photo36.jpg"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["That is awesome", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$119.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["975", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1800.0 796 100.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 100.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 100.0], Image: "photo9.jpg"
+        | CANVAS_NODE[193], Bounds[1592 0.0 796 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 796 500.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 490.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 290.0], Image: "f5.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 100.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 315.0 763 70.0], Text: ["Beauty and Care!", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 315.0 590 70.0], Text: ["$19.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 410.0 50 50.0], Image: "mermaid.png"
+              | CANVAS_NODE[195], Bounds[110.0 410.0 50 50.0], Text: ["Lunar Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 420.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1095", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 500.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f6.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["Laptop 2025 Version", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "old-man.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Storm Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$12.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["987", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1300.0 796 600.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 590.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f8.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["A perfect day : )", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[430.0 615.0 590 70.0], Text: ["$119.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+        | CANVAS_NODE[193], Bounds[2388 0.0 796 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f9.jpg"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["All-in-one Set", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$129.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "icon1.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Blizzard Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1534", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 800.0 796 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 590.0], Image: "f9.png"
+                | CANVAS_NODE[195], Bounds[550.0 400.0 200 200], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 763 70.0], Text: ["Double Cheese", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[530.0 615.0 590 70.0], Text: ["$111.99", "DroidSans.ttf"55], Paint: [0xffff3333]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "icon8.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["Rain Store", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[550.0 751 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "thumbup.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["12008", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1600.0 796 300.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 763 300.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 763 300.0], Image: "f10.jpeg"
+        | CANVAS_NODE[194], Bounds[0.0 0.0 300.0 300.0], Image: "duilian.png"
+        | CANVAS_NODE[194], Bounds[30.0 400.0 150.0 150.0], Image: "red-envelope.png"
+        | CANVAS_NODE[194], Bounds[30.0 550.0 150.0 150.0], Image: "red-envelope.png"
+        | CANVAS_NODE[194], Bounds[30.0 700.0 150.0 150.0], Image: "red-envelope.png"
+        | CANVAS_NODE[194], Bounds[30.0 900.0 150.0 150.0], Image: "icon36.png"
+        | CANVAS_NODE[194], Bounds[3100.0 300.0 60.0 1000.0], CornerRadius[30 30 30 30], Paint: [0xaaffeeee]
+      | CANVAS_NODE[21], Bounds[211.0 1530 2700 440.0], CornerRadius[30 30 30 30], Paint: [0xffffffff]
+        | CANVAS_NODE[191], Bounds[100 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[100 50.0 90 90], Image: "family.png"
+        | CANVAS_NODE[191], Bounds[80 150.0 300.0 100.0], Text: ["Home", "DroidSans.ttf"52], Paint: [0xff000000]
+        | CANVAS_NODE[191], Bounds[400 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[400 50.0 90 90], Image: "delivery.png"
+        | CANVAS_NODE[191], Bounds[370 150.0 300.0 100.0], Text: ["Delivery", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[700 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[700 50.0 90 90], Image: "basket.png"
+        | CANVAS_NODE[191], Bounds[690 150.0 300.0 100.0], Text: ["Food", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1000 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1000 50.0 90 90], Image: "dragon.png"
+        | CANVAS_NODE[191], Bounds[935 150.0 300.0 100.0], Text: ["Decoration", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1300 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1300 50.0 90 90], Image: "firework.png"
+        | CANVAS_NODE[191], Bounds[1255 150.0 300.0 100.0], Text: ["Firework", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1600 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1600 50.0 90 90], Image: "god-of-wealth.png"
+        | CANVAS_NODE[191], Bounds[1600 150.0 300.0 100.0], Text: ["VIP", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1900 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1900 50.0 90 90], Image: "champagne.png"
+        | CANVAS_NODE[191], Bounds[1870 150.0 300.0 100.0], Text: ["Alcohol", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[2200 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[2200 50.0 90 90], Image: "icon27.png"
+        | CANVAS_NODE[191], Bounds[2180 150.0 300.0 100.0], Text: ["Movie", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[2500 50.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[2500 50.0 90 90], Image: "icon21.png"
+        | CANVAS_NODE[191], Bounds[2400 150.0 300.0 100.0], Text: ["Board Game", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[100 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[100 250.0 90 90], Image: "red-envelope.png"
+        | CANVAS_NODE[191], Bounds[10 350.0 300.0 100.0], Text: ["Red Envelope", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[400 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[400 250.0 90 90], Image: "icon8.png"
+        | CANVAS_NODE[191], Bounds[400 350.0 300.0 100.0], Text: ["Toys", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[700 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[700 250.0 90 90], Image: "lamp.png"
+        | CANVAS_NODE[191], Bounds[640 350.0 300.0 100.0], Text: ["New Year", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1000 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1000 250.0 90 90], Image: "smiley.png"
+        | CANVAS_NODE[191], Bounds[1005 350.0 300.0 100.0], Text: ["Pet", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1300 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1300 250.0 90 90], Image: "icon45.png"
+        | CANVAS_NODE[191], Bounds[1280 350.0 300.0 100.0], Text: ["Health", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1600 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1600 250.0 90 90], Image: "christmas-tree.png"
+        | CANVAS_NODE[191], Bounds[1550 350.0 300.0 100.0], Text: ["Christmas", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1900 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[1900 250.0 90 90], Image: "icon47.png"
+        | CANVAS_NODE[191], Bounds[1870 350.0 300.0 100.0], Text: ["Books", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[2200 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[2200 250.0 90 90], Image: "iconx23.png"
+        | CANVAS_NODE[191], Bounds[2170 350.0 300.0 100.0], Text: ["Hobby", "DroidSans.ttf"52], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[2500 250.0 90 90], CornerRadius[10 10 10 10], Paint: [0xffffdddd]
+        | CANVAS_NODE[191], Bounds[2500 250.0 90 90], Image: "gold-ingot.png"
+        | CANVAS_NODE[191], Bounds[2460 350.0 300.0 100.0], Text: ["Discount", "DroidSans.ttf"52], Paint: [0xff777777]
+      | CANVAS_NODE[21], Bounds[0.0 2000 3184 152], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[960 10.0 60 60], Image: "video.png"
+        | CANVAS_NODE[191], Bounds[920 90.0 300.0 100.0], Text: ["Videos", "DroidSans.ttf"50], Paint: [0xff000000]
+        | CANVAS_NODE[191], Bounds[1430 10.0 60 60], Image: "mail.png"
+        | CANVAS_NODE[191], Bounds[1360 90.0 300.0 100.0], Text: ["Messages", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1870 10.0 70 70], Image: "cart.png"
+        | CANVAS_NODE[191], Bounds[1850 90.0 300.0 100.0], Text: ["Carts", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[2330 10.0 70 70], Image: "profile.png"
+        | CANVAS_NODE[191], Bounds[2300 90.0 300.0 100.0], Text: ["Profile", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[200 20.0 120.0 120.0], Circle, Paint: [0xffff3333]
+          | CANVAS_NODE[195], Bounds[5.0 5.0 110 110.0], Image: "happy-new-year.png"
+      | CANVAS_NODE[125], Bounds[0.0 2102.0 3184.0 50.0]
+        | CANVAS_NODE[116], Bounds[1230.0 20.0 724.0 20.0], CornerRadius[10 10 10 10], Paint: [0x99ffffff]

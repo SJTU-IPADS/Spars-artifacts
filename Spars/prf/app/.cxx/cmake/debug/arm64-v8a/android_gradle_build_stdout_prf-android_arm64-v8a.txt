@@ -1,0 +1,7 @@
+ninja: Entering directory `/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/prf-android.dir/renderWorker/RenderWorkerThread.cpp.o
+/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/src/main/cpp/renderWorker/RenderWorkerThread.cpp:66:13: warning: delete called on 'DrawTask' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor]
+            delete drawTask;
+            ^
+1 warning generated.
+[2/2] Linking CXX shared library /home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates/cmake/debug/obj/arm64-v8a/libprf-android.so

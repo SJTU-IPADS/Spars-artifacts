@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/src/main/cpp/CMakeLists.txt",
+    "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/src/main/cpp/freetype/CMakeLists.txt",
+    "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/src/main/cpp/freetype/builds/cmake/FindBrotliDec.cmake",
+    "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/src/main/cpp/freetype/builds/cmake/FindHarfBuzz.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "prf-android::@6890427a1f51a3e7e1df": {
+      "artifactName": "prf-android",
+      "abi": "x86",
+      "output": "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/build/intermediates/cmake/release/obj/x86/libprf-android.so",
+      "runtimeFiles": []
+    },
+    "freetype::@96957e95d729942f8bb0": {
+      "artifactName": "freetype",
+      "abi": "x86",
+      "output": "/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/release/x86/freetype/libfreetype.a",
+      "runtimeFiles": []
+    }
+  }
+}

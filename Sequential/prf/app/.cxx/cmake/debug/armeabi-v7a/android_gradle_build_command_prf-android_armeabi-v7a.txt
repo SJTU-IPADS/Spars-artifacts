@@ -1,0 +1,7 @@
+Executable : /home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/richardwu/Desktop/Spars/prf/app/.cxx/cmake/debug/armeabi-v7a
+prf-android
+jvmArgs : 
+

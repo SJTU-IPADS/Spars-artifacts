@@ -1,0 +1,7 @@
+Executable : /home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/richardwu/Desktop/Spars-ArtifactEval/Sequential/prf/app/.cxx/cmake/debug/arm64-v8a
+prf-android
+jvmArgs : 
+

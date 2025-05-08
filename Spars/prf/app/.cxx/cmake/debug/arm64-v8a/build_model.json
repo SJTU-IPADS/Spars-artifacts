@@ -1,0 +1,230 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a",
+  "cxxBuildFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a",
+  "abiPlatformVersion": 24,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cxx/debug/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a",
+      "cmakeToolchain": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/home/richardwu/Android/Sdk/ndk/23.1.7779620"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-24"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/home/richardwu/Android/Sdk/ndk/23.1.7779620"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "24"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_static"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt"
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_STL\u003dc++_static"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "objFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates/cmake/debug/obj",
+    "soFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates/cmake/debug/lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app",
+      "moduleBuildFile": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/build.gradle",
+      "makeFile": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/home/richardwu/Android/Sdk/ndk/23.1.7779620",
+      "ndkVersion": "23.1.7779620",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/cmake",
+        "minimumCmakeVersion": "3.18.1",
+        "ninjaExe": "/home/richardwu/Android/Sdk/cmake/3.18.1/bin/ninja",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/richardwu/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf",
+        "cxxFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/.cxx",
+        "compilerSettingsCacheFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/.cxx",
+        "sdkFolder": "/home/richardwu/Android/Sdk",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [
+      "/home/richardwu/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar"
+    ],
+    "prefabPackageDirectoryListFileCollection": [
+      "/home/richardwu/.gradle/caches/transforms-3/a94f3c1cbd7846ac0ca47ef2b4af96bd/transformed/games-activity-1.1.0/prefab"
+    ],
+    "prefabDirectory": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/prefab"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/home/richardwu/Desktop/Spars-ArtifactEval/Spars/prf/app/.cxx/cmake/debug/prefab/arm64-v8a"
+}

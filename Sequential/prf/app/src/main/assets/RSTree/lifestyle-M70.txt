@@ -1,0 +1,103 @@
+-------------------------------[ability]-------------------------------
+
+
+----------------------------------RenderService---------------------------------
+
+-- RenderServiceTreeDump:
+Animating Node: [];
+| RS_NODE[0], Bounds[-inf -inf -inf -inf]
+  | DISPLAY_NODE[1], Bounds[0.0 0.0 1216.0 2688.0]
+    | SURFACE_NODE[4], Name [StatusBar], Bounds[0.0 0.0 1216.0 80.0], Rect, Paint: [0xfff2f2f2]
+      | CANVAS_NODE[5]，Bounds[8.0 8.0 100.0 64.0], Text: ["19:18", "DroidSans.ttf"52], Paint: [0xff000000]
+      | CANVAS_NODE[6], Bounds[118.0 8.0 64.0 64.0], Image: "status001.png"
+      | CANVAS_NODE[7], Bounds[190.0 8.0 64.0 64.0], Image: "status002.png"
+      | CANVAS_NODE[8], Bounds[262.0 8.0 64.0 64.0], Image: "status003.png"
+      | CANVAS_NODE[9], Name [Battery]，Bounds[1102.0 0.0 100.0 80.0]
+        | CANVAS_NODE[10], Bounds[0.0 0.0 100.0 80.0], Image: "status006.png"
+        | CANVAS_NODE[11]，Bounds[28.0 16.0 100.0 64.0], Text: ["80", "DroidSans.ttf"38], Paint: [0xff000000]
+      | CANVAS_NODE[12], Name [Signal]，Bounds[1030.0 8.0 64.0 64.0]
+        | CANVAS_NODE[13], Bounds[8.0 32.0 12.0 16.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[14], Bounds[24.0 20.0 12.0 28.0], Rect, Paint: [0xff000000]
+        | CANVAS_NODE[15], Bounds[40.0 8.0 12.0 40.0], Rect, Paint: [0xff000000]
+      | CANVAS_NODE[16], Bounds[958.0 8.0 64.0 64.0], Image: "status004.png"
+      | CANVAS_NODE[17], Bounds[886.0 8.0 64.0 64.0], Image: "status008.png"
+    | SURFACE_NODE[18], Name [MainPage], Bounds[0.0 80.0 1216 2608]
+      | CANVAS_NODE[19], Bounds[0.0 0.0 1216 90.0], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[152 0.0 800.0 100.0]
+          | CANVAS_NODE[192], Bounds[0.0 0.0 266.67 100.0]
+            | CANVAS_NODE[193], Bounds[58.0 0.0 266.67 90.0], Text: ["For You", "DroidSans.ttf"45], Paint: [0xffaaaaaa]
+          | CANVAS_NODE[194], Bounds[310 0.0 266.67 100.0]
+            | CANVAS_NODE[195], Bounds[47.0 0.0 266.67 90.0], Text: ["Following", "DroidSans.ttf"45], Paint: [0xff000000]
+            | CANVAS_NODE[196], Bounds[30.0 65.0 206.67 10.0], CornerRadius[5 5 5 5], Paint: [0xffff1100]
+          | CANVAS_NODE[197], Bounds[660 0.0 266.67 100.0]
+            | CANVAS_NODE[198], Bounds[0.0 0.0 266.67 100.0], Text: ["Nearby", "DroidSans.ttf"45], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[191], Bounds[1144 14.0 60.0 60.0], Image: "magnifier.png"
+      | CANVAS_NODE[20], Bounds[0.0 90.0 1216 60.0], CornerRadius[5 5 5 5], Paint: [0xfffafafa]
+        | CANVAS_NODE[193], Bounds[98.0 5.0 266.67 60.0], Text: ["Hot", "DroidSans.ttf"40], Paint: [0xff000000]
+        | CANVAS_NODE[193], Bounds[308.0 5.0 266.67 60.0], Text: ["Emotion", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[558.0 5.0 266.67 60.0], Text: ["Career", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[808.0 5.0 266.67 60.0], Text: ["Learning", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+        | CANVAS_NODE[193], Bounds[1058.0 5.0 266.67 60.0], Text: ["Reading", "DroidSans.ttf"40], Paint: [0xffaaaaaa]
+      | CANVAS_NODE[1000], Name [Content], Bounds[0.0 150.0 1216 2100.0]
+        | CANVAS_NODE[193], Bounds[0.0 0.0 600 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 600 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 590.0], Image: "photo1.jpg"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 590 70.0], Text: ["Serene mountain views", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "man.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["StarryEyed", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[430 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["1534", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 800.0 600 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 590.0], Image: "photo2.jpg"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 590 70.0], Text: ["Nature's embrace.", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "icon8.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["SunshineSoul", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[430 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["12008", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1600.0 600 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 800.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 800.0], Image: "photo3.jpg"
+        | CANVAS_NODE[193], Bounds[600 0.0 600 2100.0]
+          | CANVAS_NODE[194], Bounds[0.0 0.0 600 200.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 190.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[30.0 15.0 590 70.0], Text: ["Endless blue skies", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 110.0 50 50.0], Image: "photo48.jpg"
+              | CANVAS_NODE[195], Bounds[110.0 110.0 50 50.0], Text: ["VibeMaster", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[430 120.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7853", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 200.0 600 800.0] 
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 590.0], Image: "photo7.jpg"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 590 70.0], Text: ["A symphony of tastes!", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "follow-us.png"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["CosmicDreamer", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[430 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["7937", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1000.0 600 800.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 790.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 590.0], Image: "photo5.jpg"
+              | CANVAS_NODE[195], Bounds[30.0 615.0 590 70.0], Text: ["Lively and refreshing", "DroidSans.ttf"50], Paint: [0xff000000]
+              | CANVAS_NODE[195], Bounds[30.0 710.0 50 50.0], Image: "photo36.jpg"
+              | CANVAS_NODE[195], Bounds[110.0 710.0 50 50.0], Text: ["TheRealDeal", "DroidSans.ttf"40], Paint: [0xff777777]
+              | CANVAS_NODE[195], Bounds[430 720.0 150 50.0]
+                | CANVAS_NODE[195], Bounds[0.0 5.0 40 40.0], Image: "heart.png"
+                | CANVAS_NODE[195], Bounds[55.0 0.0 40 40.0], Text: ["975", "DroidSans.ttf"40], Paint: [0xff777777]
+          | CANVAS_NODE[194], Bounds[0.0 1800.0 600 600.0]
+            | CANVAS_NODE[195], Bounds[10.0 0.0 590 600.0], CornerRadius[10 10 10 10], Paint: [0xfffafafa]
+              | CANVAS_NODE[195], Bounds[0.0 0.0 590 600.0], Image: "photo9.jpg"
+      | CANVAS_NODE[21], Bounds[0.0 2442.0 1216 166.0], Rect, Paint: [0xfff2f2f2]
+        | CANVAS_NODE[191], Bounds[120 30.0 300.0 100.0], Text: ["Home", "DroidSans.ttf"50], Paint: [0xff000000]
+        | CANVAS_NODE[191], Bounds[360 30.0 300.0 100.0], Text: ["Shop", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[720 30.0 300.0 100.0], Text: ["Messages", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[1000 30.0 300.0 100.0], Text: ["Profile", "DroidSans.ttf"50], Paint: [0xff777777]
+        | CANVAS_NODE[191], Bounds[557 20.0 110.0 110.0], CornerRadius[20 20 20 20], Paint: [0xffff1100]
+          | CANVAS_NODE[191], Bounds[20 50.0 70.0 10.0], CornerRadius[10 10 10 10], Paint: [0xffffffff]
+          | CANVAS_NODE[191], Bounds[50 20.0 10.0 70.0], CornerRadius[10 10 10 10], Paint: [0xffffffff]
+      | CANVAS_NODE[125], Bounds[0.0 2580.0 1216.0 28.0]
+        | CANVAS_NODE[126], Bounds[300.0 00.0 660.0 20.0], CornerRadius[10 10 10 10], Paint: [0x99ffffff]
