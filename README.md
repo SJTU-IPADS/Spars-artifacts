@@ -189,4 +189,3 @@ In this section, we aim to
     - You could measure the ``EndToEndDuration`` of rendering 700 graphics primitives, in **Sequential**, **Spars-3**, and **Spars-5**. Again, the frames need to be in the same CPU core frequency.
     - You could also try to change the number of randomly generated graphics primitives and see how many can finish within 8.33ms (120Hz frame rate time constraint). You should roughly get 1.62x and 2.31x graphics primitives for using **Spars-3**, and **Spars-5** under the same time budget, as reported in the paper.
 
-Please feel free to contact us via HotCRP if you have any questions. We apologize that because in commercial phones we cannot lock the CPU core frequency, many testings need to be done manually. We sincerely appreciate your time and efforts.
