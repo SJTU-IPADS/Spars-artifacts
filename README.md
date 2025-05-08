@@ -22,7 +22,6 @@ We recommend flagship smartphone models from 2023 or later for doing the artifac
 
 ### Project Structure
 - ``README.md``: this file.
-- ``spars-osdi25.pdf``: our paper.
 - ``Spars/``: source code of the **Spars** parallelization design.
 - ``Sequential/``: source code of the **Sequential** baseline.
 
@@ -50,7 +49,7 @@ We recommend flagship smartphone models from 2023 or later for doing the artifac
 5. You can run the project in Android Studio built-in emulator for functionality testing. Please use **Pixel 9 Pro Fold API 35**. For some reason, API 36 may not work. (**Note that you must run the program on actual smartphones for meaningful performance testing, as emulators do not have real parallelism.**) You can download the "Pixel 9 Pro Fold API 35" image in the Device Manager window in Android Studio.
 ![image](readme-images/image5.png)
 ![image](readme-images/image15.png)
-6. When re-run the program for another configuration (e.g., another render tree or another CPU binding), please **stop the program first by clicking the red squared button, wait for several seconds, and then run the program again**, rather than directly clicking the re-run button. This ensures that all vulkan objects are cleanly freed and recreated. Otherwise, some content may not get correctly displayed. (In real OSes, rendering service is a continuously running process, and never gets re-run.)
+6. When re-running the program for another configuration (e.g., another render tree or another CPU binding), please **stop the program first by clicking the red squared button, wait for several seconds, and then run the program again**, rather than directly clicking the re-run button. This ensures that all vulkan objects are cleanly freed and recreated. Otherwise, some content may not get correctly displayed. (In real OSes, rendering service is a continuously running process, and never gets re-run.)
 7. For different experimental configurations, please modify ``prf/app/src/main/cpp/config.h``. Specifically:
     - You can modify the ``RS_TREE_PATH`` for different scenarios stored in ``prf/app/src/main/assets/RSTree``. The experimental results of these scenarios are reported in Figure 11 of our paper.
     - Because the scenarios are designed for the screen sizes of Huawei Mate 70, Mate X5, and Mate XT, they may not fit for other devices. You may modify the ``DIVIDE_BY`` macro to make the content fit inside your device screen. The ``DIVIDED_BY`` value is intended to make visualization more convenient and does not affect any performance.
